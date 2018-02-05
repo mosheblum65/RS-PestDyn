@@ -30,14 +30,14 @@ Tavg   = []
 Tclim2 = []
 
 for row in reader1:
-    doy.append(float(row[0]))  # we trun the row vale to float type 
-    Tday.append(float(row[1]))  # we trun the row vale to float type
-    Tnight.append(float(row[2]))  # we trun the row vale to float type
+    doy.append(float(row[0]))  # we convert the row value into a float type 
+    Tday.append(float(row[1]))  # we convert the row value into a float type
+    Tnight.append(float(row[2]))  # we convert the row value into a float type
 
 for row in reader2:
-    doy2.append(float(row[0]))  # we trun the row vale to float type 
-    Tavg.append(float(row[1]))  # we trun the row vale to float type
-    Tclim2.append(float(row[2]))  # we trun the row vale to float type
+    doy2.append(float(row[0]))  # we convert the row value into a float type 
+    Tavg.append(float(row[1]))  # we convert the row value into a float type
+    Tclim2.append(float(row[2]))  # we convert the row value into a float type
 count = -1
 tavg_cal = [0 for i in range(len(doy))]
 for i in doy:
