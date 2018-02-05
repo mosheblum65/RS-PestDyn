@@ -3,4 +3,4 @@
 # The model is driven by satellite remote sensing data.
 # 
 # Authors: David Helman & Moshe Blum (Bar-Ilan University)
-# February 5th, 2018
+# February 5th, 2018.
