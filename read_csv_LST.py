@@ -18,7 +18,7 @@ print os.getcwd()
 csv_file1 = open('MODIS_LST_2010_Hamabia_oll_year.csv', "r")
 csv_file2 = open('pixel_is_h_CORRELATIONmode=egglaymode2.csv', "r")
 reader1 = csv.reader(csv_file1)
-reader1.next()                # skip over the first line
+reader1.next()                # skip over the first line.
 doy    = []
 Tday   = []
 Tnight = []
